@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-
 const gitHubUser = "josevalim"
 export class ApiService {
     getApi() {

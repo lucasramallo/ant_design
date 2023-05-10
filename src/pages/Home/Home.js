@@ -47,9 +47,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                
+                    
                 <p className="bio">{data.bio}</p>
-
                 <div className="followers">
                     <h1>GitHub Followers:</h1>
                     <Avatar.Group maxCount={5} style={{ marginTop: '10px'}} size="large">
