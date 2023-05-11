@@ -19,7 +19,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    const Getfollowers = axios.get(data.followers_url)
+    axios.get(data.followers_url)
     .then((response) => {
         setFollowers(response.data)
     })
