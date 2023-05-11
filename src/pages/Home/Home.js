@@ -15,7 +15,7 @@ export default function Home() {
   const apiService = new ApiService();
 
   useEffect(() => {
-    apiService.getApi().then((data) => setData(data)); 
+    apiService.getApi().then((data) => setData(data)); //By Api Service
   });
 
   useEffect(() => {
